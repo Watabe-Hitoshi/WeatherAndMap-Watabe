@@ -1,1 +1,8 @@
 APIProperties.swift
+struct APIProperties {
+    // WeatherAPIにリクエストするときのURLの共通部分
+    let baseUrl = "http://api.weatherapi.com/v1"
+
+    // WeatherAPIのAPIキー
+    let myAPIKey = "602b05f921054feebfe74334251502" // 自分のAPIキー
+}
